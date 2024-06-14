@@ -23,7 +23,10 @@
 
 
 <h2>Descrição do Projeto </h2>
-<p>Este projeto tem como objetivo facilitar o empréstimo de livros entre pessoas, promovendo assim o acesso à leitura e fomentando uma comunidade de leitores.</p>
+<p>
+Projeto Interdisciplinar do Primeiro Semestre do Curso de Desenvolvimento de Software Multiplataformas. <br>
+ <br>
+Este projeto tem como objetivo facilitar o empréstimo de livros entre pessoas, promovendo assim o acesso à leitura e fomentando uma comunidade de leitores.</p>
 
 
 

@@ -1,5 +1,4 @@
-<a name="top"></a>
-<h1 align="center"> SwapBook </h1>
+# SwapBook
 
 <p align="center">
   <img width="470" src="Website/SiteSwapBook/img-Site/logo/swap__1_-removebg-preview.png">
@@ -10,7 +9,7 @@
 </p>
 
 ## Índice
-* [Título e Logo](#top)
+* [Título e Logo](#swapbook)
 * [Status do Projeto](#status-do-projeto)
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
@@ -18,28 +17,28 @@
 * [Acesso ao Projeto](#-acesso-ao-projeto)
 * [Tecnologias Utilizadas](#tecnologias)
 * [GitHub dos Participantes](#github-dos-participantes)
+* [Voltar ao Início](#swapbook)
 
-<a name="descrição-do-projeto"></a>
-<h2>Descrição do Projeto</h2>
-<p>
-Projeto Interdisciplinar do Primeiro Semestre do Curso de Desenvolvimento de Software Multiplataformas. <br>
+## Descrição do Projeto
+Projeto Interdisciplinar do Primeiro Semestre do Curso de Desenvolvimento de Software Multiplataformas.  
 Este projeto tem como objetivo facilitar o empréstimo de livros entre pessoas, promovendo assim o acesso à leitura e fomentando uma comunidade de leitores.
-</p>
-<p align="right">[Voltar ao início](#top)</p>
 
-<a name="hammer-funcionalidades-do-projeto"></a>
-# :hammer: Funcionalidades do projeto
+
+## :hammer: Funcionalidades do projeto
 - `Aba de Login`
 - `Site`
 - `Perfil`
-<p align="right">[Voltar ao início](#top)</p>
 
-<a name="acesso-ao-projeto"></a>
+
 ## 📁 Acesso ao projeto
 **O código fonte está no GitHub, é só baixar o projeto.**
-<p align="right">[Voltar ao início](#top)</p>
 
-<a name="tecnologias"></a>
+
+
+## 🛠️ Abrir e rodar o projeto
+**O link do site são esses: [login](https://loginswapbook.netlify.app/), [Site](https://swapbookie.netlify.app/), [Perfil](https://perfilswapbook.netlify.app/)**
+
+
 ## Tecnologias
 
 <p align="center">
@@ -50,9 +49,9 @@ Este projeto tem como objetivo facilitar o empréstimo de livros entre pessoas, 
   <img src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Descrição da Imagem 2" width="100" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" alt="Bootstrap" width="100"/>
 </p>
-<p align="right">[Voltar ao início](#top)</p>
 
-<a name="github-dos-participantes"></a>
+
+
 ## GitHub dos Participantes
 
 ✨ _Raphael Reis_   ✨ :   [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/Raphael0305)
@@ -63,4 +62,4 @@ Este projeto tem como objetivo facilitar o empréstimo de livros entre pessoas, 
 
 ✨ _Diogo Henrique_ ✨ :   [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/Dih22)
 
-<p align="right">[Voltar ao início](#top)</p>
+[Voltar ao Início](#swapbook)

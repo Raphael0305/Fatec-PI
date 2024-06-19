@@ -1,12 +1,13 @@
 
 *{
   font-family: "Raleway", sans-serif;
+
 }
 
 .alinha{
  display: flex;
  flex-direction: column;
- align-items: ; 
+
 }
 /*recomendados*/
 
@@ -38,6 +39,9 @@
     width: 96%;
     margin-top: 20px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   /* Tamanho da font do numero de qualidade  */
   .medidorQualidade{
@@ -61,7 +65,8 @@
     display: flex;
     flex-direction: c;
     gap: 10px;
-    margin-left:1.5%;
+    margin-top: 20px;
+
   }
   .cardes{  /*container cardes*/
 
@@ -109,6 +114,9 @@
         height: 70vh;
       }
 
+      .vermais{
+        margin-left: 70%;
+      }
       .destaques{
         height: 100%;
     
@@ -406,7 +414,7 @@ margin-left: -3%;
   }
 
   .infoFooter{
-    background-color: rgb(29, 115, 139);
+    background-color: #1d738b;
     height: 100%;
   }
 
@@ -485,10 +493,20 @@ margin-left: -3%;
 
 }
 
+
 /*FIM GENERO */
 
+/* Todos os direitos reservados */
 
-
+.footer_copyright{
+  background-color: #18596b;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  padding-bottom: 10px;
+}
 
 /*POSTADOS RECENTE*/
 

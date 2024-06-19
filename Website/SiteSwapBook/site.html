@@ -29,7 +29,7 @@
 
     <form class="d-flex mt-3 w-50" role="search">
       <input class="form-control me-2 " type="search" placeholder="Pesquisar" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      <button class="btn btn-outline-success d-none d-sm-block" type="submit">Pesquisar</button>
     </form>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -74,11 +74,10 @@
             <li class="nav-item">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="font-size: 2rem; color:#1E7364;">Livros
               </h5>
-              <a class="nav-link active" aria-current="page" href="#">Gêneros</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Livros para alugar</a>
+              <a class="nav-link active" aria-current="page" href="https://disponivelalugar.netlify.app/">Livros Disponíveis</a>
             </li>
 
             <li class="nav-item">
@@ -217,6 +216,7 @@
   <div class="generoImage container-fluid">
     <div class="containerImage  text-center">
       <div class="row justify-content-start">
+        <H3 class="tituloGenero">GÊNERO </H3>
         <div class="col-4">
           <img src="img-Site/generos/estudo.png" alt="" class="imageGenero">
           <p>Estudos</p>
@@ -240,7 +240,7 @@
           <p>Mistério</p>
         </div>
       </div>
-      <H3 class="tituloGenero">GÊNERO </H3>
+     
     </div>
   </div>
 </div>
@@ -256,14 +256,15 @@
 
 <div class="recente container" >
   <div class="titulo container">Disponível para Alugar</div>
-
+  <a href="https://disponivelalugar.netlify.app/" style="margin-left: 80%; color: aliceblue;" class="vermais">Ver Mais</a>
   <div id="carouselExample" class="carousel slide" >
     <div class="carousel-inner" >
+      
       <div class="carousel-item active" >
-
+        
         <div class="main-cardez container d-flex justify-content-center align-items-center" >
           <div class="custom-width card" >
-            <img src="img-Site/disponiveis/bANANA.png" class="dentroimage card-img-top" alt="...">
+            <img src="img-Site/disponiveis/Attack ontitan.png" class="dentroimage card-img-top" alt="...">
             <div class="card-body d-flex justify-content-center flex-column">
               <h5 class="card-title text-center">Attack on Titan</h5>
               <a href="#" class="btn btn-primary btn-info">EMPRESTAR</a>
@@ -505,8 +506,11 @@
       </div>
     </div>
   </div>
-
-
+  
+  <div class="footer_copyright">
+    &#169
+    2024 todos os direitos reservados
+  </div>
 
 
 </footer>

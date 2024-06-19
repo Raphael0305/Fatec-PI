@@ -1,11 +1,11 @@
 # SwapBook
 
 <p align="center">
-  <img width="470" src="Website/SiteSwapBook/img-Site/logo/swap__1_-removebg-preview.png">
+  <img width="470" src="Website/SiteSwapBook/img-Site/logo/LOGO_DO_LEO-removebg-preview.png">
 </p>
 
 <p align="center">
-  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=%20COMPLETO&color=GREEN&style=for-the-badge"/>
 </p>
 
 ## Índice
@@ -28,6 +28,7 @@ Este projeto tem como objetivo facilitar o empréstimo de livros entre pessoas, 
 - `Aba de Login`
 - `Site`
 - `Perfil`
+- `Lista de Livros`
 
 
 ## 📁 Acesso ao projeto
@@ -36,7 +37,7 @@ Este projeto tem como objetivo facilitar o empréstimo de livros entre pessoas, 
 
 
 ## 🛠️ Abrir e rodar o projeto
-**O link do site são esses: [login](https://loginswapbook.netlify.app/), [Site](https://swapbookie.netlify.app/), [Perfil](https://perfilswapbook.netlify.app/)**
+**O link do site são esses: [login](https://loginswapbook.netlify.app/), [Site](https://swapbookie.netlify.app/), [Perfil](https://perfilswapbook.netlify.app/), [Lista](https://disponivelalugar.netlify.app/)**
 
 
 ## Tecnologias

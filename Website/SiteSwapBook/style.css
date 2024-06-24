@@ -1,0 +1,498 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.nav {
+    background-color: #2B3035;
+    width: 100%;
+    padding: 10px
+}
+
+
+
+/* Elementos dentro da Nav, logo input botão */
+.elementosNav {
+    width: 95%;
+
+    margin-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* tamanho do input na Navbar */
+
+.input-custom {
+    width: 80vh;
+}
+
+@media screen and (max-width: 768px) {
+    .input-custom {
+        width: 200px;
+    }
+
+    .elementosNav {
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+}
+
+.butaoNav {
+    border: 2px solid #9FA2A4;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+
+/* diviinvisivel */
+
+@media screen and (max-width: 768px) {
+    .invisivel {
+        height: 10vh;
+    }
+}
+
+
+/* === FIM NAVBAR === */
+
+
+
+
+
+
+/*  === seção linha de Titulo === */
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.linhaEsquerda,
+.linhaDireita {
+    flex: 1;
+    height: 2px;
+    background-color: #626262;
+    /* Ajuste a cor conforme necessário */
+}
+
+.TextoTitulo {
+    padding: 0 10px;
+    /* Espaço entre o texto e as linhas */
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        display: flex;
+        width: 98%;
+        align-content: center;
+        margin-top: 40px;
+
+    }
+
+    .linhaEsquerda {
+        background-color: #9FA2A4;
+        width: 25%;
+        height: 1px;
+
+    }
+
+    .TextoTitulo {
+        width: 65%;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 0.8px;
+        text-align: center;
+    }
+
+    .linhaDireita {
+        background-color: #9FA2A4;
+        width: 29%;
+    }
+}
+
+/* === Fim seção Titulo === */
+
+
+/* === Inicio Cards Recomendados === */
+
+.BoxCards {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.linhaCard {
+    width: 100%;
+    height: 1px;
+    color: #9FA2A4;
+    background-color: #9FA2A4;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .BoxCards {
+        flex-direction: column;
+        width: 98%;
+    }
+}
+
+
+
+/* Fim dos Cards */
+
+
+
+
+/* Genêro */
+
+.boxGenero {
+
+    border: 4px solid #1E7364;
+    background-color: #123430;
+    margin: 5% auto;
+    width: 95%;
+    border-radius: 10px;
+    padding-bottom: 3%;
+}
+
+.TituGenero {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #05CAC9;
+    margin-top: 2%;
+}
+
+.col img {
+    cursor: pointer;
+    border-radius: 10px;
+    width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .col img {
+        cursor: pointer;
+        border-radius: 10px;
+        width: 96px;
+    }
+
+    .boxGenero {
+        width: 98%;
+    }
+
+    .TituGenero {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+/* CARROSSEL */
+
+
+
+.custom-width-carrousel {
+
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-width-Card {
+    width: 15vw;
+    height: 10vh;
+
+}
+
+.divDosLivros {
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.verMais {
+    width: 90%;
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.BoxCarrosel {
+    margin-top: 3%;
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .custom-width-carrousel {
+        width: 100%;
+    }
+
+    .divDosLivros {
+        width: 99%;
+    }
+
+
+    .custom-width-Card {
+        width: 38%;
+        height: 20px;
+    }
+
+ 
+
+}
+
+
+/* Card Autor */
+
+
+.teste {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.boxCinza{
+    margin-top: 5%;
+    display: flex;
+    background-color: #626262;
+}
+
+
+/* Footer */
+
+
+.cadastroEmail{
+    margin-top: 50px;
+    background-color: rgb(108, 108, 118);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 9vh;
+    gap: 30px;
+  }
+  
+  
+  /* tamnho da fonte */
+  .tituloEmail{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 30px;
+  }
+  
+  
+  /* margin de cada texto e margin pra centralizar */
+  .texto{
+    margin-top: 13px;
+    margin-left: 30px;
+  }
+  
+  
+  /* div para forma o quadrado do footer */
+  
+  .infoFooter{
+    background-color: rgb(29, 115, 139);
+    height:auto;
+    align-items: center;
+  }
+  
+  .caixaDoFooter{
+    display: flex;
+    gap: 120px;
+    margin-left: 20%;
+    margin-bottom: 2%;
+  }
+  
+  .Institucional{
+  
+    margin-top: 5%;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  li>a{
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .duvidas{
+    margin-right: 54px;
+  }
+  
+  @media only screen and (max-width: 768px){
+  .infoFooter{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .caixaDoFooter{
+  gap: 20px;
+  flex-direction: column;
+  margin-left: -3%;
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 768px){
+      /* div cinza */
+    .cadastroEmail{
+      height: 40vh;
+      display: flex;
+      flex-direction: column;
+    }
+    /* titulo partece cinza */
+    .tituloEmail{
+      font-size: 3rem;
+      margin-left:10px;
+    }
+      /* texto do cadastro de email */
+    .texto{
+      font-size: 2rempx;
+    }
+  
+  
+  
+  
+    /* tamanho do input */
+  
+    .inpurte{
+      width:30%;
+    }
+  
+    .infoFooter{
+      background-color: #1d738b;
+      height: 100%;
+    }
+  
+    .duvidas{
+      margin-right: 44px;
+    }
+  
+    .duvidaMain{
+      margin-left: 100px;
+    }
+  
+  }
+  @media only screen and (max-width: 768px){
+      .imageGenero{
+          cursor: pointer;
+          width: 150px;
+      }
+  
+      .containerImage{
+          margin-left:0px ;
+          width: 100%;
+          height: 67vh;
+      }
+  
+      .generoImage{
+          background-color: #123430;
+          border: 5px solid #1E7364;
+          display: flex;
+          align-items: center;
+          border-radius: 10px;
+      }
+  
+      .tituloGenero{
+      
+          margin-top: 80px;
+          font-size: 3rem;
+  
+      }
+  }
+  
+  @media only screen and (max-width: 768px){
+      .imageGenero{
+          cursor: pointer;
+          width: 110px;
+      }
+  
+      .genero{
+          width: 20vh;
+          display: flex;
+          align-items: center;
+          height: 60vh;
+      }
+      .containerImage{
+          width: 100%;
+          height: 100%;
+          margin-top: 150px;
+      }
+  
+      .generoImage{
+          background-color: #123430;
+          border: 5px solid #1E7364;
+          display: flex;
+          height: 500px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 10px;
+      }
+  
+      .tituloGenero{
+      
+          margin-top: 50px;
+          font-size: 3rem;
+  
+      }
+  
+  }
+  
+  
+  /*FIM GENERO */
+  
+  /* Todos os direitos reservados */
+  
+  .footer_copyright{
+    background-color: #18596b;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+  }
+  
+  /*POSTADOS RECENTE*/
+  
+  
+  

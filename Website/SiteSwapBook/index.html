@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="pt-br" data-bs-theme="dark">
+
+<head>
+    <title>SwapBook</title>
+    <!-- Required meta tags -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="nav fixed-top">
+            <div class="elementosNav">
+
+                <div class="logo">
+                    <!--Logo-->
+                    <a href=""><img src="assets/logo/LOGO_DO_LEO-removebg-preview.png" alt="" width="100px"></a>
+                </div>
+
+                <div class="Pesquisa">
+                    <!--Input de pesquisa-->
+                    <form class="d-flex input-custom" role="search">
+                        <input class="form-control me-2 vw-75" type="search" placeholder="Pesquisar"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success d-none d-md-block" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+
+                <div class="butaoNav">
+                    <!-- Botão de navegação-->
+                    <button class="navbar-toggler mt-1" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="font-size: 2rem;">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <div class="dropdown mt-3">
+                                    <!-- <button type="button" class="btn btn-info"><a href="https://swapbookie.netlify.app/" style="text-decoration: none; color: rgb(0, 0, 0);">Home</a></button> -->
+                                    <button class="btn btn-secondary btn-info dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Paél
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item"
+                                                href="https://perfilswapbook.netlify.app/">Perfil</a></li>
+                                        <li><a class="dropdown-item" href="#">Editar Perfil</a></li>
+                                        <li><a class="dropdown-item" href="#">Amigos</a></li>
+                                    </ul>
+                                    <li class="nav-item">
+                                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"
+                                            style="font-size: 2rem; color:#1E7364;">Troca</h5>
+                                        <a class="nav-link active" aria-current="page" href="#">Emprestar</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Gerenciar trocas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"
+                                            style="font-size: 2rem; color:#1E7364;">Livros
+                                        </h5>
+
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="https://disponivelalugar.netlify.app/">Livros Disponíveis
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Recomendados</a>
+                                    </li>
+                                    <h5 class="offcanvas-title mt-4" id="offcanvasNavbarLabel"
+                                        style="font-size: 2rem; color:#1E7364;">
+                                        Auxíliares</h5>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Configuração</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Reclame aqui</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="https://loginswapbook.netlify.app/">Finalizar Sessão</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </nav>
+    </header>
+    </div>
+
+    </div>
+    </div>
+    </header>
+    <main>
+
+        <div class="invisivel">
+            a
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/carousel/1717250321080-04290237012325746.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/carousel/1717250397929-0006847046187805628.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/carousel/diversidade.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+        <div class="titulo">
+            <div class="linhaEsquerda">
+            </div>
+            <div class="TextoTitulo">
+                Recomandados do Dia
+            </div>
+            <div class="linhaDireita"></div>
+        </div>
+
+
+        <div class="BoxCards">
+            <div class="card mb-3" style="max-width: 620px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/disponiveis/Arthur lewin.jpeg" class="rounded-start" alt="..." width="100%"
+                            height="100%">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title" style="letter-spacing: 2px; text-align: center;">SINOPSE</h5>
+                            <p class="card-text">The Beginning After the End" segue a jornada de Arthur Leywin, um rei
+                                reencarnado em um mundo de magia e monstros. Com memórias de sua vida passada, Arthur
+                                busca explorar suas habilidades, enfrentar desafios e proteger aqueles que ama. A série
+                                mistura fantasia, aventura e drama, enquanto Arthur se adapta e cresce em seu novo
+                                mundo. <br><br></p>
+                            <div class="linhaCard"></div>
+                            <p style="font-size: 2rem; " class="d-flex justify-content-center">5,0 <img
+                                    src="assets/icones/estrela-removebg-preview.png" alt="" width="50"></p>
+                            <button type="button" class="btn btn-info">EMPRESTAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 620px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/disponiveis/Coraline.png" class="rounded-start" alt="..." width="100%"
+                            height="100%">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title " style="letter-spacing: 2px; text-align: center;">SINOPSE</h5>
+                            <p class="card-text">Coraline" de Neil Gaiman é uma história sobre uma garota que descobre
+                                uma porta para um mundo paralelo em sua nova casa. Esse mundo parece inicialmente melhor
+                                do que o seu, mas logo revela ser perigoso, com uma "Outra Mãe" sinistra que tenta
+                                aprisioná-la. Coraline precisa usar sua coragem e inteligência para salvar a si mesma e
+                                seus pais.</p>
+                            <div class="linhaCard"></div>
+                            <p style="font-size: 2rem; " class="d-flex justify-content-center">5,0 <img
+                                    src="assets/icones/estrela-removebg-preview.png" alt="" width="50"></p>
+                            <button type="button" class="btn btn-info">EMPRESTAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- === fim Card === -->
+
+        <div class="boxGenero">
+            <div class="TituGenero ">
+                GENÊRO
+            </div>
+
+            <!-- CARROSSEL DE LIVROS  -->
+
+
+
+            <div class="container text-center" style="margin-top: 3%;">
+                <div class="row">
+                    <div class="col">
+                        <img src="assets/generos/estudo.png" alt="" width="200">
+                    </div>
+                    <div class="col">
+                        <img src="assets/generos/Fantasia.png" alt="" width="200">
+                    </div>
+                    <div class="col">
+                        <img src="assets/generos/Romance.png" alt="" width="200">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container text-center" style="margin-top: 3%;">
+                <div class="row">
+                    <div class="col">
+                        <img src="assets/generos/Mistreio.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="assets/generos/Terror.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="assets/generos/estudo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FIM GÊNERO -->
+
+        <div class="titulo">
+            <div class="linhaEsquerda">
+            </div>
+            <div class="TextoTitulo">
+                Recomandados do Dia
+            </div>
+            <div class="linhaDireita"></div>
+        </div>
+
+        <div class="verMais">
+            <a href="https://disponivelalugar.netlify.app/" style="color: #cdcdcd;">Ver Mais</a>
+        </div>
+
+        <div class="BoxCarrosel">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide custom-width-carrousel"
+                data-bs-touch="false">
+                <div class="carousel-inner d-flex ">
+
+                    <div class="carousel-item active ">
+                        <div class="divDosLivros">
+                            <div class="card custom-width-Card d-none d-md-block">
+                                <img src="assets/disponiveis/sHERLOCK.png" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">As aventuras de Sherlocl Holmes</h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+
+
+                            <div class="card custom-width-Card d-none d-md-block">
+                                <img src="assets/disponiveis/parcy.png" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">Parcy Jackson e os olimpianos</h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+
+                            <div class="card custom-width-Card ">
+                                <img src="assets/disponiveis/LUIN.png" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">Lupin o Ladrão de Casaca <br><br></h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+
+                            <div class="card custom-width-Card">
+                                <img src="assets/disponiveis/Witcher.png" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">The Withcer Torre da Andorinha</h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="divDosLivros">
+                            <div class="card custom-width-Card d-none d-md-block">
+                                <img src="assets/disponiveis/html css.png" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">Html e CSS <br><br></h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+
+                            <div class="card custom-width-Card d-none d-md-block">
+                                <img src="assets/disponiveis/RAINHA.png" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">A Rainha Vermelha</h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+
+                            <div class="card custom-width-Card">
+                                <img src="assets/disponiveis/Harry Potter e a pedra filosofal .png" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">Harry Potter e a pedra filosofal</h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+
+                            <div class="card custom-width-Card">
+                                <img src="assets/disponiveis/CUlpa estrala .png" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">A culpa é das estrelas</h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="divDosLivros">
+                            <div class="card custom-width-Card">
+                                <img src="assets/disponiveis/Coraline.png" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">Coraline <br><br></h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+
+                            <div class="card custom-width-Card d-none d-md-block">
+                                <img src="assets/disponiveis/C++.png" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">C++ <br><br></h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+
+                            <div class="card custom-width-Card ">
+                                <img src="assets/disponiveis/RAINHA.png" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">Attack on Titan <br><br></h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+
+                            <div class="card custom-width-Card d-none d-md-block">
+                                <img src="assets/disponiveis/Arthur lewin.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-center">
+                                    <h5 class="card-title text-center">The Beginnign After the End</h5>
+                                    <a href="#" class="btn btn-info">EMRPESTAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- ===   Fim Carrossel de Livros === -->
+
+        <div class="titulo" style="margin-top: 5%;">
+            <div class="linhaEsquerda">
+            </div>
+            <div class="TextoTitulo">
+                Autores em Alta
+            </div>
+            <div class="linhaDireita"></div>
+        </div>
+
+
+        <div class="card-group teste">
+            <div class="card">
+                <img src="assets/Autores/Lupin.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Maurice Leblanc</h5>
+                    <p class="card-text">Maurice Leblanc foi um escritor francês, nascido em 11 de dezembro de 1864, e
+                        falecido em 6 de novembro de 1941. Ele é mais conhecido por criar o icônico personagem Arsène
+                        Lupin, o cavalheiro ladrão e mestre do disfarce, que se tornou um dos personagens mais populares
+                        da literatura francesa. Leblanc escreveu inúmeras histórias e romances protagonizados por Lupin,
+                        combinando mistério, aventura e charme. Sua obra influenciou o gênero de detetive e roubo, e
+                        Lupin continua a ser uma figura cultural relevante, inspirando adaptações em diversas mídias.
+                    </p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/Autores/The Begiging.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">TurtleMe (Brandon Lee)</h5>
+                    <p class="card-text">
+                        TurtleMe é o pseudônimo de Brandon Lee, autor americano conhecido por escrever a popular série
+                        de web novels "The Beginning After the End." Combinando elementos de fantasia, ação e aventura,
+                        Lee cria histórias cativantes centradas em Arthur Leywin, um rei reencarnado em um mundo mágico.
+                        TurtleMe começou a publicar suas obras online, conquistando uma base de fãs dedicada, e a série
+                        foi posteriormente adaptada para webtoons, ampliando ainda mais seu alcance e popularidade.</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/Autores/The Withcer.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Andrzej Sapkowski</h5>
+                    <p class="card-text">Andrzej Sapkowski é um autor polonês, nascido em 21 de junho de 1948, mais
+                        conhecido por criar a série de livros "The Witcher" (em polonês, "Wiedźmin"). Esta série de
+                        fantasia segue as aventuras de Geralt de Rívia, um caçador de monstros com habilidades
+                        sobrenaturais, em um mundo cheio de intriga política, magia e criaturas míticas. Sapkowski
+                        começou a publicar os contos de "The Witcher" na década de 1980, e a série ganhou fama
+                        internacional, inspirando adaptações em jogos de vídeo, uma série de TV da Netflix e várias
+                        outras mídias. Seu estilo de escrita é conhecido pela mistura de humor, filosofia e crítica
+                        social, tornando suas obras apreciadas por uma ampla gama de leitores.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="cadastroEmail">
+            <div class="tituloEmail">
+              SwapBook
+            </div>
+            <div class="texto">
+              <p>cadastre-se para receber novidades
+              </p>
+            </div>
+            <div class=" input-group flex-nowrap w-75 p-3">
+              <span class="input-group-text" id="addon-wrapping">@</span>
+              <input type="text" class="form-control" placeholder="Email" aria-label="Username"
+                aria-describedby="addon-wrapping">
+              <button type="button" class="btn btn-info">Enviar</button>
+            </div>
+        
+          </div><!-- fim da parte cinza Parte cinza-->
+        
+        
+          <div class="infoFooter container-fluid d-flex">
+            <div class="caixaDoFooter">
+        
+              <div class="Institucional">
+                <h4> INSTITUCIONAL</h4>
+                <li><a href="">Quem Somos</a></li>
+                <li><a href="">Escolas parceiras</a></li>
+              </div>
+        
+              <div class="Institucional">
+                <h4> DÚVIDAS</h4>
+                <li><a href="">Política de privacidade</a></li>
+                <li><a href="">Termos de Uso</a></li>
+                <li><a href="">Perguntas Frequentes</a></li>
+              </div>
+        
+              <div class="Institucional">
+                <h4>ATENDIMENTO AO CLIENTE</h4>
+                <li><a href=""><img src="img-Site/icones/agent.png" alt="" width="20">SAC:4002-8922</a></li>
+                <li><a href=""><img src="img-Site/icones/phone.png" alt="" width="20">(19) 99873-8700</a></li>
+                <li><a href=""><img src="img-Site/icones/phone.png" alt="" width="20">(19) 99458-7000</a></li>
+              </div>
+            </div>
+          </div>
+          
+          <div class="footer_copyright">
+            &#169
+            2024 todos os direitos reservados
+          </div>
+        
+    </footer>
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

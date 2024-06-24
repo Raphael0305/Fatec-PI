@@ -1,7 +1,7 @@
 # SwapBook
 
 <p align="center">
-  <img width="470" src="Website/SiteSwapBook/img-Site/logo/LOGO_DO_LEO-removebg-preview.png">
+  <img width="470" src="Website/SiteSwapBook/assets/logo/LOGO_DO_LEO-removebg-preview.png">
 </p>
 
 <p align="center">
